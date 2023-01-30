@@ -1,0 +1,106 @@
+/*this is text alignment &color */
+#h1{
+	text-align:center;
+}
+h1{
+text-align:left;
+text-decoration-line:underline;	
+}
+h2{
+	text-align:center;
+	text-decoration-style:dotted;
+}
+h3{
+	text-align:right;
+	color:rgb(0,255,255);
+	text-decoration-line:overline underline;
+}
+.container{
+	text-align:justify;
+	color:black;
+	border:3px solid grey;
+	background-color:rgb(255,0,0);
+	padding-left:20px;
+}
+.containers{
+	text-indent:50px;
+	text-decoration-line:underline;
+}
+.direction{
+	direction:rtl;
+	text-align:center;
+}
+.unicode{
+	unicode-bidi:bidi-override;
+	direction:rtl;
+}
+/*this is vertical Align*/
+img.a {
+	vertical-align:sub;
+}
+img.b{
+	vertical-align:text-top -40px;
+}
+
+#ctr{
+	border:5px solid grey;
+
+}
+/*this is text spacing*/
+.text{
+	border:5px solid grey;
+}
+p.line{
+	line-height:1.2;
+	text-align:justify;
+}
+p.lines{
+	word-spacing:1cm;
+	text-indent:60px;
+	letter-spacing:0cm;
+	white-space: wrap;	
+}
+/*this is text transformation*/
+.transform{
+	border:5px solid blue;
+	padding-bottom:30px;
+}
+.text1{
+	text-transform:uppercase;
+}
+.text2{
+	text-transform:lowercase;
+}
+.text3{
+	text-transform:capitalize;
+}
+/*this is shadow */
+./*colour{
+	border-style:dotted;
+	border-color:rgb(250,250,250);
+}*/
+p.ncolor{
+	text-shadow:0px 0px black;
+}
+p.color{
+	text-shadow:10px 10px  green;
+}
+p.blrclr{
+	text-shadow:0 0 3px #FF0000;
+}
+.shadow{
+	text-align:center;
+	 text-shadow: 5px 5px 3px red;
+	border-style:dashed;
+	padding-bottom:30px;
+}
+.box{
+	  text-align:center;
+	  width: 300px;
+	  height: 100px;
+	  padding: 25px;
+	  background-color: coral;
+	  box-shadow: 10px 10px 5px blue;
+	  border-radius:50px;
+}
+/*this is shadow */
